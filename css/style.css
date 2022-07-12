@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item{
+    flex-basis: 100px;
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    margin: 10px;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2;
+    font-weight: bolder;
+   
+}
+.item:nth-child(1){
+    background: rgb(128, 0, 124);
+    /* align-self: flex-start;   */
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+}
+.item:nth-child(2){
+    background: rgb(4, 0, 128);
+    /* align-self:center ;   */
+    /* order: 1; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 4; */
+    
+}
+.item:nth-child(3){
+    background: green;
+    /* align-self: flex-end;   */
+    /* order: 2; */
+
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+
+
+.flex-container{
+    /*parte 1 for example 3 items*/
+
+    /* le damos una altura al contenedor que tiene Flex 
+       para centrar nuestros item*/
+    height: 500px;
+    /*aplicamos el aling item para mover los item cuando esta en row*/
+    /* align-items: flex-end; */
+    background-color: rgb(210, 214, 218);
+    display: flex;
+    /*justify-content: center;main asis flex row horizontal
+    start, end, center, space[around,evelyn,between,*/
+    /* flex-direction: column; */
+
+
+    /*parte 2 for example 8 items*/
+    /* flex-wrap: wrap; */
+
+    /*parte 2 for example 3 items*/
+
+
+
+}
