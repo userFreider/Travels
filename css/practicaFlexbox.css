@@ -131,3 +131,24 @@ header .container{
     margin-right: 10px;
     font-size: 2rem;
 }
+
+
+/* media query */
+@media(max-width:768px){
+    .header .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .container h1{
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+    }
+    .header .container p{
+        padding-bottom: 10px;
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
