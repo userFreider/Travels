@@ -48,3 +48,21 @@ nav .container{
     align-items: center;
 }
 
+
+nav .logo{
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar .container .nav{
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.navbar .container .nav li a{
+   margin-left: 15px;
+   color: white;
+   font-size: 1rem;
+       
+}
